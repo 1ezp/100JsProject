@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+.content{
+    padding: 4rem;
+
+}
+
+section{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section h1{
+    margin: 10px 0;
+}
+
+.scroll-indicator{
+    height: 5px;
+    width: calc(100% - 6em);
+    position: fixed;
+    bottom: 10px;
+    left: 3em;
+    border-radius: 3px;
+}
+.scroll-indicator .progress{
+    height: 100%;
+    width: 5px;
+    border-radius: 3px;
+
+    background: crimson;
+
+
+    transition: width 0.1s;
+}
+
