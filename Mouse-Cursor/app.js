@@ -8,6 +8,6 @@ document.addEventListener("mousemove",(event)=>{
 
 let moveCursor = function(pageX,pageY){
     cursor.style.left = pageX + "px";
-    cursor.style.top = pageY + "px"
+    cursor.style.top = pageY +  "px"
 }
 
